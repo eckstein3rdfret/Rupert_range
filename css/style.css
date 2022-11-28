@@ -1,8 +1,5 @@
-.container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.container > div{
-    width: 30%;
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
