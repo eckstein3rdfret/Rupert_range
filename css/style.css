@@ -2,7 +2,7 @@ body{
     background-color: grey;
 }
 .hero{
-    background-image: url(/Rupert_range/img/Heroimage.png);
+    background-image: url(../img/Heroimage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -17,8 +17,6 @@ i{
     width: 100%;
 }
 #range{
-    background-color: green;
-    height: 500px;
     width: 100%;
 }
 #community{
@@ -53,4 +51,20 @@ i{
 }
 footer{
     background-color: gray;
+}
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent {
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    right: 67px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
 }
