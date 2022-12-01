@@ -61,8 +61,12 @@ footer{
     top: 65px;
     z-index: 1;
     right: 67px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
 }
 }
