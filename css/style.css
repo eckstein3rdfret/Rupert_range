@@ -23,8 +23,6 @@ i{
     width: 100%;
 }
 #blog{
-    background-color: blue;
-    height: 500px;
     width: 100%;
 }
 #calendar{
@@ -46,6 +44,9 @@ i{
     background-color: blue;
     height: 500px;
     width: 100%;
+}
+.height{
+    height: 500px;
 }
 footer{
     background-color: gray;
