@@ -16,23 +16,10 @@ i{
     height: 80%;
     width: 100%;
 }
-#range{
-    width: 100%;
-}
-#community{
-    width: 100%;
-}
-#blog{
-    width: 100%;
-}
 #calendar{
-    background-color: orange;
-    height: 500px;
     width: 100%;
 }
 #about{
-    background-color: green;
-    height: 500px;
     width: 100%;
 }
 #contact{
