@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#range">Range</a>
@@ -54,7 +54,7 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#donate">Donate</a>
+                <a class="nav-link" href="#hero">Donate</a>
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@
             <img src="./img/Joebiden.png" alt="comic" width="100%" height="100%">
           </div>
           
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-evenly">
             <h3 class="text-center pb-2"><strong>We Update our Blog Regularly! </strong></h3>
             <h5 class="text-center pb-1"><strong>Come here to talk about anything going on in the world!</strong></h5>
             <ul>
@@ -188,20 +188,67 @@
           </div>
         
         </div>
-      </div>
-      
+      </div>      
     </section>
     <section id="contact">
-      <div class="container">
-
+      <div class="container text-light">
+        <h3 class="text-center"><strong>Contact Us!</strong></h3>
+        <div class="row border-bottom border-light my-5 pb-5">
+          
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-between px-5 pb-2"> 
+              <h3 class="text-center"><strong>If You Have Any Questions Contact Us!</strong></h3>
+              <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Phone#</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">I would like...</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        To Reserve The Range 
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                        To Get Involved
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                      <label class="form-check-label" for="gridRadios3">
+                        To Donate!
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>                
+                <button type="submit" class="btn btn-primary">Submit!</button>
+              </form>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h4>We are located at 500 North Meridian, Rupert, ID 83350 </h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46925.20151836399!2d-113.6869959145375!3d42.68624715736385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ab24679d59965f%3A0x1085de6fb1c0e032!2sRupert%20City%20Shooting%20Range!5e0!3m2!1sen!2sus!4v1670280019441!5m2!1sen!2sus" width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
       </div>
     </section>
-    <section id="donate">
-      <div class="container">
-
-      </div>
-    </section>
-
     <footer class="w-100 d-flex justify-content-center align-items-center bg-black">
       <img src="./img/logo.png" width="60px" height="60px">
       <i class="fa-brands fa-square-facebook fa-3x ms-5"></i>
